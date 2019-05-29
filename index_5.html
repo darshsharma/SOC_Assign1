@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Sample Window
+        </title>
+    </head>
+    <body>
+        <center>
+            <h2>URL</h2>
+            
+            <input type="text" name="url" id="url">
+            <input type="button" value="Go" onclick="document.getElementById('iframe_a').src=document.getElementById('url').value"> <br>
+            Height<input type="text" id="height"> Width <input type="text" id="width"> <input type="button" value="Submit" onclick="document.getElementById('iframe_a').width=document.getElementById('width').value;document.getElementById('iframe_a').height=document.getElementById('height').value"
+  <br>
+        <br>  <br>  <iframe id="iframe_a" ></iframe>
+         </center>
+    </body>
+</html>
